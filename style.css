@@ -1,0 +1,99 @@
+/* Estilos para el cuerpo de la página */
+html {
+   touch-action: pan-x pan-y;
+}
+
+body {
+   margin: 0;
+   padding: 0;
+   background-color: #ddd0bf;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column; 
+   height: 100vh;
+}
+
+.swiper-container {
+   width: 100%;
+   max-width: 600px; 
+   margin: 10px; 
+   position: relative;
+}
+
+.swiper-slide img {
+   width: 100%;
+   height: auto;
+   display: block;
+}
+
+.swiper-container {
+   padding: 20px;
+}
+a .superpuesta {
+   position: absolute;
+   bottom: 10px; 
+   left: 50%; 
+   transform: translateX(-50%); 
+   z-index: 1;
+   width: 15vw; 
+   height: auto; 
+}
+a .logos {
+   position: absolute;
+   top: -5vh; 
+   left: 50%;
+   transform: translateX(-50%);
+   z-index: 1; 
+   width: 88vw; 
+   height: auto; 
+}
+
+a .superpuestas1 {
+   position: absolute;
+   left: 50%;
+   transform: translateX(-50%);
+   top: 13vh; 
+   width: 40vw; 
+   height: auto; 
+}
+a .superpuestas2 {
+   position: absolute;
+   left: 50%;
+   transform: translateX(-50%);
+   top: 35vh; 
+   width: 40vw; 
+   height: auto;
+}
+a .superpuestas3 {
+   position: absolute;
+   left: 50%;
+   transform: translateX(-50%);
+   top: 51vh; 
+   width: 40vw; 
+   height: auto;
+}
+a .superpuestas4 {
+   position: absolute;
+   left: 50%;
+   transform: translateX(-50%);
+   top: 73vh; 
+   width: 40vw; 
+   height: auto; 
+}
+a .superp {
+   position: absolute;
+   right: -3px;
+   bottom: 19.5vh;
+   width: 48vw;
+   height: auto;
+}
+
+a .yuca {
+   position: absolute;
+   bottom: -4vh;
+   right: 10vw;
+   width: 45vw;
+   height: auto;
+}
+
