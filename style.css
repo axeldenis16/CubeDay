@@ -84,16 +84,16 @@ a .superpuestas4 {
 a .superp {
    position: absolute;
    right: -3px;
-   bottom: 19.5vh;
-   width: 48vw;
+   bottom: 17.5vh;
+   width: 40vw;
    height: auto;
 }
 
 a .yuca {
    position: absolute;
    bottom: -4vh;
-   right: 10vw;
-   width: 45vw;
+   right: -2vw;
+   width: 43vw;
    height: auto;
 }
 
